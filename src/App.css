@@ -32,7 +32,54 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper {
+  margin: 30px auto;
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(180deg, rgba(6, 9, 38, 1) 0%, rgba(65, 85, 255, 1) 100%);
+}
+
+.head {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+.head__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head__row div+div {
+  margin-left: 30px;
+}
+
+.cityname {
+  margin-top: 20px;
+}
+
+.temp {
+  margin-left: 40px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bottom div {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
 }
