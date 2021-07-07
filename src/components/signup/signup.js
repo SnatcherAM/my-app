@@ -43,20 +43,20 @@ const Signup = () => (
        }) => (
       <Form>
         <label htmlFor="firstName">First Name</label>
-        <Field id="firstName" name="firstName" placeholder="Jane" />
+        <Field id="firstName" name="firstName" placeholder="First Name" />
         <label htmlFor="lastName">Last Name</label>
-        <Field id="lastName" name="lastName" placeholder="Doe" />
+        <Field id="lastName" name="lastName" placeholder="Last Name" />
         <label htmlFor="email">Email</label>
         <Field
           id="email"
           name="email"
-          placeholder="jane@acme.com"
+          placeholder="Email"
           type="email"/>
           <button class="btn-next" type="submit">Next<img class="btn__img" src="https://img.icons8.com/ios-filled/50/ffffff/long-arrow-right.png"/></button>
           <Field
              type="password"
              name="password"
-             placeholder="your password"
+             placeholder="Your Password"
              onChange={handleChange}
              onBlur={handleBlur}
              value={values.password}
