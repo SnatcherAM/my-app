@@ -1,0 +1,73 @@
+html {
+    background-image: url(/src/components/signup/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body {
+    overflow: hidden;
+}
+
+label {
+    display: none;
+}
+
+input {
+    display: flex;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: solid 1px #333;
+}
+
+.btn-next {
+    position: absolute;
+    right: 40px;
+    top: calc(50% - 35px);
+    display: flex;
+    padding: 10px 30px;
+    font-size: 28px;
+    color: #fff;
+    border: none;
+    border-radius: 99em;
+    background-color: #223ab3;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-next:hover {
+    background-color: #162675;
+}
+
+.btn__img {
+    margin-left: 10px;
+}
+
+.wrapper {
+    position: relative;
+    margin: 150px auto;
+    padding: 50px 40px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.registered {
+    text-align: center;
+    font-size: 14px;
+    color: #8d8f99;
+}
+
+.login {
+    text-decoration: none;
+}
+
+.login:hover {
+    text-decoration: underline;
+}

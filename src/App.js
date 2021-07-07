@@ -4,9 +4,7 @@ import Signup from './components/signup/signup.js';
 
 function App() {
   return (
-    <div class="wrapper">
-        <Signup />
-    </div>
+    <Signup />
   );
 }
 
