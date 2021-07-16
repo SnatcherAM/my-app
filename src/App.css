@@ -31,7 +31,16 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  overflow: hidden;
 }
+
+html {
+  background-image: url(/src/components/images/bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 
 ul[class],
 ol[class] {

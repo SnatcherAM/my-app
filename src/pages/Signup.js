@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './../../logo.svg'
-import './signup.css'
+import './Signup.css'
 import { Formik, Field, Form } from 'formik';
 
 const Signup = () => (
   <div class="page">
-    <div class="wrapper">
+    <div class="signup-wrapper">
     <h1 class="title">Sign Up</h1>
     <Formik
       initialValues={{
@@ -42,17 +41,14 @@ const Signup = () => (
          isSubmitting,
        }) => (
       <Form>
-        <label htmlFor="firstName">First Name</label>
         <Field id="firstName" name="firstName" placeholder="First Name" />
-        <label htmlFor="lastName">Last Name</label>
         <Field id="lastName" name="lastName" placeholder="Last Name" />
-        <label htmlFor="email">Email</label>
         <Field
           id="email"
           name="email"
           placeholder="Email"
           type="email"/>
-          <button class="btn-next" type="submit">Next<img class="btn__img" src="https://img.icons8.com/ios-filled/50/ffffff/long-arrow-right.png"/></button>
+          <button class="btn-next" type="submit">Next<img class="btn__img" src="https://img.icons8.com/ios-filled/50/ffffff/long-arrow-right.png" alt=""/></button>
           <Field
              type="password"
              name="password"
